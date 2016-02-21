@@ -152,7 +152,7 @@ a:hover {
 content {
     font-weight: lighter;
     text-align: center;
-    color: black;
+    color: white;
     font-family: Quicksand, sans-serif;
 }
 
@@ -175,7 +175,7 @@ li {
 
 a {
     font-weight: normal;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
