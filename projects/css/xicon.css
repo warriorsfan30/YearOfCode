@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1449057528837-7ca097b3520c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b31792a51e52080f684a4380a3536e24');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444
+}
+
+h1 {
+    color: white;
+    font-family: Varela Round;
+    font-size: 52px;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 80px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+h1:hover {
+    -ms-transform: rotate(11.25deg);
+    -webkit-transform: rotate(11.25deg);
+    transform: rotate(11.25deg);
+}
+
+h1:active {
+    -ms-transform: rotate(22.5deg);
+    -webkit-transform: rotate(22.5deg);
+    transform: rotate(22.5deg);
+}
