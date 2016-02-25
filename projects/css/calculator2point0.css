@@ -1,0 +1,60 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c1215e6c694118918793a9f0149819f');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+body {
+    background-image: url('');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+button {
+    width: 6.5%;
+    background-color: rgb(0, 100, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(0, 75, 255);
+}
+
+button:active {
+    background-color: rgb(0, 50, 255);
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    font-family: Comic Sans MS;
+}
