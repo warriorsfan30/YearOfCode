@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf8" />
+    <title>FizzBuzz</title>
+    <link rel="stylesheet" type="text/css" href="./css/fizzbuzz.css" />
+    <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+</head>
+
+<html>
+
+<body>
+    <input type="text" id="fizz" name="fizz" placeholder="Enter the fizz number (Multiples of this number will be displayed as fizz)">
+    <input type="text" id="buzz" name="buzz" placeholder="Enter the buzz number (Multiples of this number will be displayed as buzz)">
+    <input type="submit" value="Submit" id="submit">
+    <div>
+        <p id="fizzbuzz"></p>
+    </div>
+</body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById('submit').onclick = function changehandler() {
+        var fizz = +document.getElementById('fizz').value || 1;
+        var buzz = +document.getElementById('buzz').value || 1;
+        var p = document.getElementById('fizzbuzz');
+
+        var html = '';
+        for (var i = 1; i < 101; i++) {
+            if (i % fizz === 0 && i % buzz === 0) {
+                html += "FizzBuzz, ";
+            } else if (i % fizz === 0) {
+                html += "Fizz, ";
+            } else if (i % buzz === 0) {
+                html += "Buzz, ";
+            } else {
+                html += i + ", ";
+            }
+        }
+        p.innerHTML = html;
+    }
+
+    document.body.addEventListener('change', changehandler);
+    changehandler();
+});
+  </script>
+</html>
