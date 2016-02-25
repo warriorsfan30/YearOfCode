@@ -1,0 +1,48 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1429311808521-e9323bf636bd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=524baa1c5e8c47c32bf37361f19c3012');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-family: Varela Round;
+    top: 40%;
+    left: 40%;
+    -webkit-animation-name: rainbow;
+    -webkit-animation-duration: 4s;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%   {
+        color: red;
+    }
+    17%  {
+        color: orange;
+    }
+    32%  {
+       color: yellow;
+    }
+    49%  {
+        color: green;
+    }
+    64% {
+        color: blue;
+    }
+    81% {
+        color: #4b0082
+    }
+    100% {
+        color: #551A8B;
+    }
+    
+}
