@@ -1,0 +1,70 @@
+body {
+  background-image: url('http://www.hostcompanion.com/images/bg-page.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(70, 70, 70);
+  font-family: Varela Round;
+  font-weight: bold;  
+  color: white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 100, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 75, 255);
+}
+
+input[type=submit]:active {
+    background-color: rgb(0, 50, 255);
+}
+
+option {
+   font-family: Comic Sans MS;
+   font-weight: bolder;
+   
+}
+
+div {
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70)k;
+    padding: 40px;
+    font-family: Varela Round;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+p {
+    text-align: center;
+    padding-top: 200px;
+}
