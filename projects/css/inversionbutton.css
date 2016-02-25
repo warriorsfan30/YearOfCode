@@ -1,0 +1,44 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1446034295857-c39f8844fad4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=231736de0bc92d79a6ee049208b9c283');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+button {
+    outline: 0;
+}
+
+.btn {
+    padding: 25px 75px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: white solid 3px;
+    background: none;
+    color: white;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 90px;
+    font-weight: 500;
+    border-radius: 25px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
