@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<head>
+		<meta charset="utf8" />
+		<title>Sign Up Page</title>
+		<link rel="stylesheet" type="text/css" href="./css/signuppage.css" />
+    	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+    	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+</head>
+<html>
+    <body>
+        <div>
+  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+      
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email">
+          
+    <label for="uname">Username</label>
+    <input type="text" id="uname" name="username">
+  
+    <input type="submit" value="Submit" id="submit">
+  </form>
+        
+</div>
+    <p></p>
+    </body>
+    <script>
+      $(document).ready(function() {
+    $("#submit").click(function() {
+        var firstname = $('#fname').val();
+        var lastname = $('#lname').val();
+        var email = $('#email').val();
+        var username = $('#uname').val();
+        $("p").append("Congratulations " + firstname + " " + lastname + " you're account has successfully been created. You have used the email: " + email + " and you have the username of " + username + ".");
+        $("div").addClass("hide");
+    });
+});
+    </script>
+</html>
