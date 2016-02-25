@@ -1,0 +1,60 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1444044205806-38f3ed106c10?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c53d289059cccef8ab155f3269af87a');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+button {
+    outline: 0;
+}
+
+button {
+    padding: 35px 95px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: white solid 3px;
+    background: none;
+    color: white;
+    font-family: Quicksand;
+    font-size: 30px;
+    margin-top: 90px;
+    font-weight: 500;
+    border-radius: 25px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer
+}
+
+.bt1 {
+    border: red solid;
+    background: none;
+    text-transform: uppercase;
+}
+
+.bt2 {
+    border: blue solid;
+    background: none;
+    text-transform: uppercase;
+}
+
+.bt3 {
+    border: green solid;
+    background: none;
+    text-transform: uppercase;
+}
+
+.bt1:hover {
+    background: red;
+}
+
+.bt2:hover {
+    background: blue;
+}
+
+.bt3:hover {
+    background: green;
+}
