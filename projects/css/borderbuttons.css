@@ -29,32 +29,12 @@ button {
     cursor: pointer
 }
 
-.bt1 {
-    border: red solid;
-    background: none;
-    text-transform: uppercase;
-}
-
 .bt2 {
     border: blue solid;
     background: none;
     text-transform: uppercase;
 }
 
-.bt3 {
-    border: green solid;
-    background: none;
-    text-transform: uppercase;
-}
-
-.bt1:hover {
-    background: red;
-}
-
 .bt2:hover {
     background: blue;
-}
-
-.bt3:hover {
-    background: green;
 }
