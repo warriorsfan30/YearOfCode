@@ -1,0 +1,33 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b12d8c2cf10fba49dbefbb5dc66c068c');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+button {
+    outline: 0;
+    border: none;
+    padding: 25px 55px;
+    color: black;
+    font-family: Varela Round;
+    font-weight: bold;
+    background: gray;
+    background: -webkit-linear-gradient(130deg, rgb(0, 120, 255), gray);
+    background: -o-linear-gradient(130deg, rgb(0, 120, 255), gray); 
+    background: -moz-linear-gradient(130deg, rgb(0, 120, 255), gray); 
+    background: linear-gradient(130deg, rgb(0, 120, 255), gray); 
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+button:hover {
+    background: rgb(80, 80, 80);
+    background: -webkit-linear-gradient(130deg, rgb(0, 100, 255), gray);
+    background: -o-linear-gradient(130deg, rgb(0, 100, 255), gray); 
+    background: -moz-linear-gradient(130deg, rgb(0, 100, 255), gray); 
+    background: linear-gradient(130deg, rgb(0, 100, 255), gray);
+}
