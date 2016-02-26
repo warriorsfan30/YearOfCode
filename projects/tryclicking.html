@@ -2,11 +2,10 @@
 <head>
 	<meta charset="utf8" />
 	<title>Year of Code</title>
-  <link rel="stylesheet" type="text/css" href="./css/tryclicking.css" />
-  <script type="text/javascript" src="./js/tryclicking.js"></script>
+  	<link rel="stylesheet" type="text/css" href="./css/tryclicking.css" />
 	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
@@ -18,21 +17,21 @@
     <script>
     	var Button = $(".randomPos");
 
-function random(number) {
-    return Math.floor(Math.random() * number);
-}
+	function random(number) {
+    		return Math.floor(Math.random() * number);
+	}
 
-Button.on("mouseenter", function() {
-    $(".randomPos").css({
-        position: "absolute",
-        top: random(75) + "%",
-        left: random(75) + "%"
-    });
-});
+	Button.on("mouseenter", function() {
+		$(".randomPos").css({
+        		position: "absolute",
+        		top: random(75) + "%",
+        		left: random(75) + "%"
+    		});
+	});
 
-Button.on("click", function() {
-    alert("Congratulations! You clicked the button! You must have illegally fast hands or you changed the code for this program!");
-});
+	Button.on("click", function() {
+    		alert("Congratulations! You clicked the button! You must have illegally fast hands or you changed the code for this program!");
+	});
 
     </script>
 </html>
