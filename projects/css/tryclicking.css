@@ -15,19 +15,11 @@ button {
     font-family: Varela Round;
     font-weight: bold;
     background: gray;
-    background: -webkit-linear-gradient(130deg, rgb(0, 120, 255), gray);
-    background: -o-linear-gradient(130deg, rgb(0, 120, 255), gray); 
-    background: -moz-linear-gradient(130deg, rgb(0, 120, 255), gray); 
-    background: linear-gradient(130deg, rgb(0, 120, 255), gray); 
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
 }
 
 button:hover {
-    background: rgb(80, 80, 80);
-    background: -webkit-linear-gradient(130deg, rgb(0, 100, 255), gray);
-    background: -o-linear-gradient(130deg, rgb(0, 100, 255), gray); 
-    background: -moz-linear-gradient(130deg, rgb(0, 100, 255), gray); 
-    background: linear-gradient(130deg, rgb(0, 100, 255), gray);
+    opacity: 0.5;
 }
