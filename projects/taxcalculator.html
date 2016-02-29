@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf8" />
+    <title>PartTimeCoder | Home</title>
+    <link rel="stylesheet" type="text/css" href="./css/taxcalculator.css" />
+    <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+</head>
+<html>
+
+<body>
+    <input type="text" placeholder="Type the original value of the item (Don't include the dollar sign)" id="oprice"></input>
+    <input type="text" placeholder="Type the tax in your region (Don't include the percent sign)" id="tax"></input>
+    <input type="submit" placeholder="Type a number to see if it's prime" id="submit" onClick="Tax()"></input>
+    <p id="aprice"></p>
+</body>
+<script>
+  function Tax() {
+    var Original = document.getElementById("oprice").value;
+    var Tax = document.getElementById("tax").value;
+    
+    var TaxToDecimal = Tax/100;
+    var TaxPlusOne = TaxToDecimal+1;
+    var NewPrice = Original*TaxPlusOne;
+    document.getElementById("aprice").innerHTML = "The final cost of this item will be: $" + NewPrice;
+}
+</script>
+
+</html>
