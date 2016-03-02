@@ -1,0 +1,81 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=48112dfcfa4684ee0c853a8994488795');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+  text-align: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 20px 55px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid white;
+    -webkit-transition: .25s;
+    -moz-transition: .25;
+    -o-transition: .25s;
+    transition: .25s;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+button:hover {
+    background: rgb(0, 125, 255);
+    -webkit-animation-name: hover;
+    -webkit-animation-duration: 4s;
+    animation-name: hover;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hover {
+    0% {
+        -ms-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg); 
+        transform: rotate(-15deg);
+    }
+    
+    20% {
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg); 
+        transform: rotate(15deg);
+        background: rgb(0, 115, 255);
+    }
+    
+    40% {
+        -ms-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg); 
+        transform: rotate(-15deg);
+        background: rgb(0, 105, 255);
+    }
+    
+    60% {
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg); 
+        transform: rotate(15deg);
+        background: rgb(0, 105, 255);
+    }
+    
+    80% {
+        -ms-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg); 
+        transform: rotate(-15deg);
+        background: rgb(0, 115, 255);
+    }
+    
+    100% {
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg); 
+        transform: rotate(15deg);
+    }
+}
