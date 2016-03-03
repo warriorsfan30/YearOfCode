@@ -1,0 +1,22 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1430769860170-bea225f02277?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=08f156cdb367465463a2fd48eb199251');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    color: white;
+    font-family: Varela Round;
+}
+
