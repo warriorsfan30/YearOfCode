@@ -144,6 +144,11 @@ body {
     transition: .4s;
 }
 
+a:hover {
+    font-weight: bold;
+    margin-left: 2.5px;
+}
+
 content {
     font-weight: lighter;
     text-align: center;
@@ -156,60 +161,45 @@ content {
     display: none;
 }
 
+p {
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     font-family: Raleway, sans-serif;
+}
+
+.ui {
+    padding-left: 40%;
+    text-align: left;
+    font-size: 35px;
+}
+
+.ui>li>a {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Varela Round;
+    font-weight: bold;
 }
 
 .opacity {
     opacity: 0.1;
 }
 
-body {
-  background-image: url('https://images.unsplash.com/photo-1447758501994-89bb4bae35d3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3dc3e071213a86f6054535546abf0c55');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #444444;
-}
-
-a {
-    background: grey;
-    color: white;
-    display: block;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    height: 19vh;
-    width: 50%;
-    text-align: center;
-    font-weight: bold;
-    font-family: Varela Round;
-    font-size: 20px;
-    margin-bottom: 0.82vh;
-    line-height: 20vh;
-    cursor: pointer;
-    opacity: 0.75;
-    -webkit-transition: .75s;
-    -moz-transition: .75s;
-    -o-transition: .75s;
-    transition: .75s;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-span {
-    opacity: 1;
-}
-
-a:hover {
-    width: 60%;
-}
-
-a:active {
-    background: rgb(100, 100, 100);
+nav>ul>li>a {
+    font-family: Varela Round, sans-serif;
 }
