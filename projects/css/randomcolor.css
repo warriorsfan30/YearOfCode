@@ -1,0 +1,19 @@
+div {
+    background: grey;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 50vh;
+    font-family: Varela Round;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+div:hover:after {
+    content: "Click";
+}
