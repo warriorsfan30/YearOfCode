@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-.dice1 {
+.dice1, .add {
     width: 100px;
     height: 100px;
     background: white;
@@ -37,3 +37,14 @@ h1 {
 .dice1:hover {
     opacity: 0.75;
 }
+
+.add {
+    border: dotted 2px black;
+    background: none;
+}
+
+.add:hover {
+    border: dotted 2px white;
+    color: white;
+}
+
