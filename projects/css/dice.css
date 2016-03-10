@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://images.unsplash.com/uploads/1413595244012e81f5c69/de0cc225?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0d3cb9ae22349ffc1531f3bb4652e476');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Varela Round;
+    font-size: 27.5px;
+    text-align: center;
+}
+
+.dice1 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    font-family: Varela Round;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15vh;
+    outline: none;
+    border: solid 2px white;
+    cursor: pointer;
+    -webkit-transition: .45s;
+    -moz-transition: .45;
+    -o-transition: .45s;
+    transition: .45s;
+    margin-top: 100px;
+}
+
+.dice1:hover {
+    opacity: 0.75;
+}
