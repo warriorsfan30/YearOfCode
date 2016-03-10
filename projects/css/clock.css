@@ -1,0 +1,19 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1430089888180-1aa87f8f5b6d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a50e8145c93ddd48ed7651072fa93437');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+.clockStyle {
+    background: none;
+    padding: 6px;
+    color: white;
+    font-family: Varela Round;
+    font-size: 46px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+}
