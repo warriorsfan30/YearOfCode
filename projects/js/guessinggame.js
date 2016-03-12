@@ -19,7 +19,7 @@ submit.addEventListener('click', function() {
             var distance = guess - number;
             var howClose = Math.abs(distance);
             
-            response.innerHTML = "Keep trying you were only " + howClose + " away. The correct number was " + number + ".";
+            response.innerHTML = "Keep trying you were only " + howClose + " away. The secret number is " + number + ".";
         }
     }
 });
