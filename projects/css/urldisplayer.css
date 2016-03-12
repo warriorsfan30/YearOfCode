@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(70, 70, 70);
+    font-family: Varela Round;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=774e99d16e3f3f0e4138be9d98e4f0f9');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+    margin-top: 150px;
+}
+
+input[type=submit] {
+    width: 55%;
+    background-color: rgb(0, 100, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 75, 255);
+}
+
+input[type=submit]:active {
+    background-color: rgb(0, 50, 255);
+}
+
+option {
+    font-family: Varela Round;
+    font-weight: bolder;
+}
+
+div {
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70)k;
+    padding: 40px;
+    font-family: Varela Round;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.display {
+    font-size: 35px;
+    font-family: Varela Round;
+    letter-spacing: 5px;
+    margin-top: 200px;
+    /* Animation Code Follows */
+    -webkit-animation-name: show;
+    -webkit-animation-duration: 4s;
+    animation-name: show;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes show {
+    0% {
+        font-size: 35px;
+        letter-spacing: 6px;
+    }
+    25% {
+        font-size: 40px;
+        letter-spacing: 7px;
+    }
+    50% {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    75% {
+        font-size: 40px;
+        letter-spacing: 7px;
+    }
+    100% {
+        font-size: 35px;
+        letter-spacing: 6px;
+    }
+}
