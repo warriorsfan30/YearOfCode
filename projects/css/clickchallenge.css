@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1440557653082-e8e186733eeb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=446a504f97d92b1926453bb2d6d26518');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-family: Varela Round;
+    padding: 15px 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: grey;
+    font-size: 20px;
+    border-radius: 2.5px;
+    -webkit-transition: .25s;
+    -moz-transition: .25;
+    -o-transition: .25s;
+    transition: .25s;
+    margin-top: 100px;
+}
+
+button:hover {
+    padding: 15px 65px;
+}
+
+button:active {
+    padding: 15px 60px;
+}
+
+clicks,
+seconds,
+message {
+    position: absolute;
+    color: black;
+    top: 95%;
+    left: 75%;
+    font-family: Varela Round;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+seconds,
+clicks {
+    left: 13%;
+    font-weight: bold;
+    font-size: 50px;
+    top: 85%;
+    color: white;
+}
+
+clicks {
+    left: 72%;
+}
+
+.hide {
+    display: none;
+}
+
+message {
+    top: 40%;
+    left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
