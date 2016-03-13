@@ -64,10 +64,11 @@ clicks {
 }
 
 message {
-    top: 40%;
+    top: 60%;
     left: 5%;
     font-size: 40px;
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
+    color: white;
 }
