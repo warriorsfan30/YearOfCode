@@ -11,4 +11,6 @@ function clickCount() {
     }
 }
 
-document.getElementById("clicks").innerHTML = localStorage.clickcount;
+if (localStorage.clickcount > 0) {
+    document.getElementById("clicks").innerHTML = localStorage.clickcount;
+}
