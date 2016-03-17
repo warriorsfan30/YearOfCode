@@ -1,0 +1,13 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1445206975305-c20077a848f4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=508df37dafec4c4b0f6f6b0ed7524fd7');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
