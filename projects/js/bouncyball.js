@@ -15,7 +15,7 @@ function initCanvas() {
     var height = canvas.height;
     
     var x = 52.5;
-    var distance = 10;
+    var distance = 30;
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
