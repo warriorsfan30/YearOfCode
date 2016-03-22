@@ -24,11 +24,10 @@
             </ul>
         </nav>
     </div>
-    <div id="nav-icon3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
     </div>
     <content>
         <div>
@@ -39,12 +38,5 @@
         </div>
     </content>
 </body>
-<script>
-	$('#nav-icon3').click(function() {
-    $(this).toggleClass('open');
-    $(".menu").toggleClass("movezero", 10);
-    $("content").toggleClass("opacity", 10);
-});
-</script>
-
+	<script type="text/javascript" src="./js/animation.js" ></script>
 </html>
