@@ -78,7 +78,6 @@ body {
 }
 
 .menu li {
-    font-family: Varela Round, sans-serif;
     text-align: left;
     padding-left: 42.5%;
     padding-top: 15.5vh;
@@ -94,10 +93,19 @@ body {
     -moz-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    font-family: Quicksand, sans-serif;
 }
 
 .movezero {
     left: 0;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+.movemore {
+    left: 95%;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -o-transition: .4s;
@@ -114,6 +122,11 @@ content {
     text-align: center;
     color: white;
     font-family: Varela Round, sans-serif;
+}
+
+.nodisplay {
+    position: absolute;
+    display: none;
 }
 
 p {
@@ -152,6 +165,14 @@ h1 {
     font-weight: bold;
 }
 
+.opacity {
+    opacity: 0.1;
+}
+
 nav>ul>li>a {
     font-family: Varela Round, sans-serif;
+}
+
+.nooverflow {
+    overflow: hidden;
 }
