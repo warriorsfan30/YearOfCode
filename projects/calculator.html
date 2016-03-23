@@ -1,67 +1,35 @@
 <!DOCTYPE html>
 <head>
-		<meta charset="utf8" />
-		<title>Calculator</title>
-		<link rel="stylesheet" type="text/css" href="./css/calculator.css" />
-    <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<meta charset="utf8" />
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./css/calculator.css" />
+	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <html>
     <body>
-        <input type="text" placeholder="Dividend" id="dividend">
-        <input type="text" placeholder="Divisor" id="divisor">
-  <input type="submit" id="submitq">
-        <p class="quotient">The quotient = </p>
-        
-        <input type="text" placeholder="Factor 1" id="factor1">
-        <input type="text" placeholder="Factor 2" id="factor2">
-  <input type="submit" id="submitm">
-        <p class="product">The product = </p>
-        
-        <input type="text" placeholder="Minuend" id="minuend">
-        <input type="text" placeholder="Subtrahend" id="subtrahend">
-  <input type="submit" id="submits">
-        <p class="difference">The difference = </p>
-        
-        <input type="text" placeholder="Addend 1" id="addend1">
-        <input type="text" placeholder="Addend 2" id="addend2">
-  <input type="submit" id="submita">
-        <p class="sum">The sum = </p>
-        
-        
+	<input type="text" placeholder="Dividend" id="dividend">
+	<input type="text" placeholder="Divisor" id="divisor">
+	<input type="submit" id="submitq">
+	<p class="quotient">The quotient = </p>
+	
+	<input type="text" placeholder="Factor 1" id="factor1">
+	<input type="text" placeholder="Factor 2" id="factor2">
+	<input type="submit" id="submitm">
+	<p class="product">The product = </p>
+	
+	<input type="text" placeholder="Minuend" id="minuend">
+	<input type="text" placeholder="Subtrahend" id="subtrahend">
+	<input type="submit" id="submits">
+	<p class="difference">The difference = </p>
+	
+	<input type="text" placeholder="Addend 1" id="addend1">
+	<input type="text" placeholder="Addend 2" id="addend2">
+	<input type="submit" id="submita">
+	<p class="sum">The sum = </p>
     </body>
-    <script>
-    	$(document).ready(function() {
-    $("#submitq").click(function() {
-        var dividend = $('#dividend').val();
-        var divisor = $('#divisor').val();
-        var answerq = dividend/divisor;
-        $(".quotient").html("The quotient = " + answerq);
-    });
-    
-    $("#submitm").click(function() {
-        var factor1 = $('#factor1').val();
-        var factor2 = $('#factor2').val();
-        var answerm = factor1*factor2;
-        $(".product").html("The product = " + answerm);
-    });
-    
-    $("#submits").click(function() {
-        var minuend = $('#minuend').val();
-        var subtrahend = $('#subtrahend').val();
-        var answers = minuend - subtrahend;
-        $(".difference").html("The difference = " + answers);
-    });
-    
-    $("#submita").click(function() {
-        var addend1 = parseInt($("#addend1").val());
-        var addend2 = parseInt($("#addend2").val());
-        var answera = addend1 + addend2;
-        $(".sum").html("The sum = " + answera);
-    });
-});
-    </script>
+      <script type="text/javascript" src="pages/js/animation.js"></script>
 </html>
