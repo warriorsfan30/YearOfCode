@@ -1,18 +1,16 @@
-
 <!DOCTYPE html>
 <head>
-		<meta charset="utf8" />
-		<title>Calculator 2.0</title>
-		<link rel="stylesheet" type="text/css" href="./css/calculatortwo.css" />
-    	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
-    	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<meta charset="utf8" />
+	<title>Calculator 2.0</title>
+	<link rel="stylesheet" type="text/css" href="./css/calculatortwo.css" />
+	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 
 <html>
-
 <body>
     <input type="text" placeholder="Number #1" id="number1">
     <button class="addition">+</button>
@@ -23,45 +21,6 @@
     <input type="text" placeholder="Number #2" id="number2">
     <p></p>
 </body>
-
-<script>
-  $(document).ready(function() {
-    $(".addition").click(function() {
-        var number1 = parseInt($("#number1").val());
-        var number2 = parseInt($("#number2").val());
-        var sum = number1+number2;
-        $("p").html("The answer is " + sum);
-    });
-    
-    $(".subtraction").click(function() {
-        var number1 = $("#number1").val();
-        var number2 = $("#number2").val();
-        var difference = number1-number2;
-        $("p").html("The answer is " + difference);
-    });
-    
-    $(".multiplication").click(function() {
-        var number1 = $("#number1").val();
-        var number2 = $("#number2").val();
-        var product = number1*number2;
-        $("p").html("The answer is " + product);
-    });
-    
-    $(".division").click(function() {
-        var number1 = $("#number1").val();
-        var number2 = $("#number2").val();
-        var quotient = number1/number2;
-        $("p").html("The answer is " + quotient);
-    });
-    
-   $(".root").click(function() {
-        var number1 = $("#number1").val();
-        var root1 = Math.sqrt(number1);
-        $("p").html("The square root of Number #1 is " + root1);
-    });
-    
-});    
-</script>
-
+	<script type="text/javascript" src="./js/calculatortwo.js"></script>
 </html>
 
