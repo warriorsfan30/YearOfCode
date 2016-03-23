@@ -15,9 +15,13 @@ canvas.height = height
 var circle_count = 200;
 var circles = [];
 
-for (var i = 0; i < circle_count; i++) {
-    circles.push(new circle());
+var generate = function() {
+    for (var i = 0; i < circle_count; i++) {
+        circles.push(new circle());
+    }
 }
+
+setInterval(generate, 2000);
 
 function circle() {
     this.speed = {
@@ -59,10 +63,10 @@ var draw = function() {
     }
 }
 
+setInterval(draw, 33);
+
 canvas.addEventListener("mousedown", function() {
     for (var i = 0; i < 200; i++) {
         circles.push(new circle())
     }
 });
-
-setInterval(draw, 33)
