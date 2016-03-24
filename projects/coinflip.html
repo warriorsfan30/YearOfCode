@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <head>
-		<meta charset="utf8" />
-		<title>PartTimeCoder | Home</title>
-		<link rel="stylesheet" type="text/css" href="./css/coinflip.css" />
-    	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
-    	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<meta charset="utf8" />
+	<title>Coin Flip</title>
+	<link rel="stylesheet" type="text/css" href="./css/coinflip.css" />
+	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <html>
     <body>
@@ -16,17 +16,5 @@
         <button onClick="Flip()" id="submit">FLIP THE COIN</button>
     <p id="message"></p>
     </body>
-    
-    <script>
-      function Flip() {
-        var Probability = Math.random();
-        if (Probability > 0.5) {
-          document.getElementById("message").innerHTML = "Heads!";
-        }
-        if (Probability < 0.5) {
-          document.getElementById("message").innerHTML = "Tails!";
-        } 
-}
-    </script>
-    
+    	<script type="text/javascript" src="./js/coinflip.js"></script>
 </html>
