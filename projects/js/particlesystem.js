@@ -65,22 +65,22 @@ var draw = function() {
         c.location.x += c.speed.x;
         c.location.y += c.speed.y;
 
-        if (c.location.x > canvas.width) {
+        if (c.location.x > canvas.width - c.radius) {
             c.location.x = canvas.width - c.radius;
             c.speed.x = c.speed.x * -1;
         }
 
-        if (c.location.x < 0) {
+        if (c.location.x < 0 + c.radius) {
             c.location.x = 0 + c.radius;
             c.speed.x = c.speed.x * -1;
         }
 
-        if (c.location.y > canvas.height) {
+        if (c.location.y > canvas.height - c.radius) {
             c.location.y = canvas.height - c.radius;
             c.speed.y = c.speed.y * -1;
         }
 
-        if (c.location.y < 0) {
+        if (c.location.y < 0 + c.radius) {
             c.location.y = 0 + c.radius;
             c.speed.y = c.speed.y * -1;
         }
