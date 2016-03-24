@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf8" />
-    <title>PartTimeCoder | Home</title>
+    <title>Tax Calculator</title>
     <link rel="stylesheet" type="text/css" href="./css/taxcalculator.css" />
     <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
@@ -18,16 +18,5 @@
     <input type="submit" placeholder="Type a number to see if it's prime" id="submit" onClick="Tax()"></input>
     <p id="aprice"></p>
 </body>
-<script>
-  function Tax() {
-    var Original = document.getElementById("oprice").value;
-    var Tax = document.getElementById("tax").value;
-    
-    var TaxToDecimal = Tax/100;
-    var TaxPlusOne = TaxToDecimal+1;
-    var NewPrice = Original*TaxPlusOne;
-    document.getElementById("aprice").innerHTML = "The final cost of this item will be: $" + NewPrice;
-}
-</script>
-
+    <script type="text/javascript" src="./js/taxcalculator.js"></script>
 </html>
