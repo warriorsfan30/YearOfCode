@@ -1,15 +1,14 @@
-
 <!DOCTYPE html>
 <head>
-		<meta charset="utf8" />
-		<title>Prime</title>
-		<link rel="stylesheet" type="text/css" href="./css/prime.css" />
-    	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
-    	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<meta charset="utf8" />
+	<title>Prime</title>
+	<link rel="stylesheet" type="text/css" href="./css/prime.css" />
+	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Html-tags-icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <html>
     <body>
@@ -17,24 +16,5 @@
     <input type="submit" placeholder="Type a number to see if it's prime" id="submit" onClick="isPrime()"></input>
     <p id="message"></p>
     </body>
-    <script>
-      function isPrime(n) {
-    if (n < 2) return false;
-
-    var q = Math.floor(Math.sqrt(n));
-
-    for (var i = 2; i <= q; i++) {
-        if (n % i == 0) {
-            return "That number is not prime";
-        }
-    }
-
-    return "That number is prime";
-}
-
-document.getElementById("submit").addEventListener("click", function() {
-    var number = document.getElementById("prime").value;
-    document.getElementById("message").innerHTML = isPrime(number).toString();
-}, false);
-    </script>
+      <script type="text/javascript" src="./js/calculator.js"></script>    
 </html>
