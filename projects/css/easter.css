@@ -1,0 +1,28 @@
+body {
+    background-image: url('http://www.hdwallpapersfreedownload.com/uploads/large/special-days/easter-wallpaper-hd-free-desktop.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+#easter-egg {
+    width: 90px;
+    height: 110px;
+    background: white;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    cursor: pointer;
+}
+
+#eggsfound {
+    font-family: Varela Round;
+    position: absolute;
+    right: 6%;
+    top: 4%;
+    z-index: 99999;
+}
+
+#eggsfound:before {
+    content: "Eggs Found - "
+}
