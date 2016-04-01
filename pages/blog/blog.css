@@ -26,3 +26,9 @@ p {
     padding-right: 25%;
     line-height: 25px;
 }
+
+a {
+    color: white;
+    font-family: Varela Round; 
+    text-decoration: none;
+}
