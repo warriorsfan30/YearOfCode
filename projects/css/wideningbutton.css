@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://images.unsplash.com/35/HHEvkhEsQLaNDRkui4fg_fullsize.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47751edbc721be469cb578ead98b0a4f');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+button {
+    border: 2.5px solid white;
+    padding: 15px 55px;
+    background: none;
+    font-family: Varela Round;
+    color: white;
+    font-size: 17.5px;
+    margin-top: 45vh;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+button:hover {
+    padding: 15px 65px;
+}
+
+button:active {
+    background: #e74c3c;
+}
