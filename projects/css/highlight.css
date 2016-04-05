@@ -1,0 +1,28 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1439736637365-748f240b24fb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f18043849f8c96c566ba85b07cf0e521');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+}
+
+p {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    color: white;
+    font-size: 30px;
+    font-family: Quicksand;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+p::selection {
+    text-shadow: 1.5px 1.5px 0 black;
+    color: #ecf0f1;
+}
