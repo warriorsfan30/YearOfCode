@@ -29,6 +29,10 @@ function rain() {
         x: 0 + Math.random() * width,
         y: height + Math.random() * 1000
     }
+    
+    this.accel = {
+        y: 0.125 + Math.random() * 0.25
+    }
 
     this.radius = Math.random() * 20 + 10
     
@@ -49,6 +53,7 @@ var draw = function() {
         ctx.arc(r.location.x, r.location.y, r.radius, Math.PI * 2, false);
         ctx.fill();
         
+        r.speed.y += r.accel.y;
         r.location.y += r.speed.y;
     }
 }
