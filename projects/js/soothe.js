@@ -31,7 +31,7 @@ function rain() {
     }
     
     this.accel = {
-        y: 0.125 + Math.random() * 0.25
+        y: -0.125 + Math.random() * -0.25
     }
 
     this.radius = Math.random() * 20 + 10
