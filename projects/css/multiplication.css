@@ -1,0 +1,97 @@
+body {
+    background-color: #e74c3c;
+    text-align: center;
+}
+
+button {
+    border: 2.5px solid white;
+    padding: 15px 55px;
+    background: none;
+    font-family: Varela Round;
+    color: white;
+    font-size: 17.5px;
+    margin-top: 2.5vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+button:hover {
+    color: #2980b9;
+}
+
+button:active {
+    background: #2980b9;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: Varela Round;
+    text-align: center;
+}
+
+.question {
+    margin-top: 30vh;
+}
+
+.result {
+    margin-top: 10vh;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+    margin-top: 10vh;
+}
+
+input[type=submit] {
+    width: 55%;
+    background-color: #c0392b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #c02b36;
+}
+
+input[type=submit]:active {
+    background-color: #c02d2b;
+}
+
+.check {
+    border: none;
+    padding: 15px 15px;
+}
+
+.check:active {
+    background: none;
+}
+
+.score {
+    position: absolute;
+    bottom: 6vh;
+    right: 4%;
+}
