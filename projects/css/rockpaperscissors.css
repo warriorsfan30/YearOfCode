@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b09f84e8e8fd58ee91faf817b9f903d7');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+img {
+    display: inline-block;
+    width: 20%;
+    height: 25vh;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 15vh;
+    cursor: pointer;
+}
+
+#Rock {
+    left: 5%;
+}
+
+#Scissors {
+    left: 40%;
+}
+
+#Paper {
+    left: 75%;
+}
+
+h1 {
+    font-family: Varela Round;
+    color: black;
+    text-align: center;
+    
+}
+
+.padding-top {
+    margin-top: 50vh;
+}
