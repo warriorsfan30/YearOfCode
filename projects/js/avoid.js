@@ -27,10 +27,11 @@ $(document).ready(function() {
 
     canvas.addEventListener('mousemove', mousePos, false);
     canvas.addEventListener('touch', mousePos, false);
-    
+
     canvas.addEventListener('mouseout', function() {
         $("canvas").hide();
-                $("#message").html("Sorry you lost. You finished with a score of " + score + "!");
+        $("#score").hide();
+        $("#message").html("Sorry you lost. You finished with a score of " + score + "!");
     }, false);
 
     function mousePos(e) {
@@ -62,6 +63,11 @@ $(document).ready(function() {
         ctx.fillRect(0, 0, width, height);
         ctx.globalCompositeOperation = "lighter";
 
+        ctx.font = "30px Quicksand";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Avoid the red dots! Ctrl + R to restart.", width / 2, height / 2);
+
         for (var i = 0; i < circles.length; i++) {
             var c = circles[i];
 
@@ -83,7 +89,7 @@ $(document).ready(function() {
             if (hover) {
                 $("canvas").hide();
                 $("#score").hide();
-                $("#message").html("Sorry you lost. You finished with a score of " + score + "!");
+                $("body").append("<h1>Sorry you lost. You finished with a score of " + score + "!</h1>");
             }
         }
     }
