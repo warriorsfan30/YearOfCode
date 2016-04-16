@@ -24,7 +24,7 @@ $("#current").click(function() {
     
     $("#gameswon").html(gameswon);
     
-    if (eggsfound % 73 == 0) {
+    if (gameswon % 73 == 0) {
         alert("The Warriors set the record for the most games won in a season!");
     }
 });
