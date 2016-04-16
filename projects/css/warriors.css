@@ -1,0 +1,45 @@
+body {
+    background-image: url('http://cdn.pcwallart.com/images/golden-state-warriors-wallpaper-2015-wallpaper-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+img {
+    opacity: 0.1;   
+    background: none;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+}
+
+img::selection {
+    background: none;
+}
+
+#gameswon {
+    font-family: Quicksand;
+    position: absolute;
+    right: 6%;
+    top: 4%;
+    z-index: 99999;
+    color: white;
+}
+
+#gameswon:before {
+    content: "Games Won - "
+}
+
+#message {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    top: 50vh;
+    color: white;
+    font-family: Quicksand;
+    transform: translate(-50%, -50%);
+    
+}
