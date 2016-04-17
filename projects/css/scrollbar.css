@@ -1,0 +1,31 @@
+body {
+    background-color: #40d47e;
+}
+
+h1 {
+    color: white;
+    font-family: Varela Round;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+p {
+    color: white;
+    font-family: Quicksand;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+indent {
+    margin-left: 2.5%;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color: #40d47e;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #27ae60;
+  outline: 1px solid #27ae60;
+}
