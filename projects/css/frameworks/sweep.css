@@ -1,0 +1,107 @@
+/*
+ * Sweep V0.0.1 Alpha
+ * Copyright 2016, Anish Kasam
+ * Free to use under the MIT license.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* Table of contents
+    - Typography
+    - Buttons
+    - Links/Lists
+    - Other
+*/
+
+/* Typography */
+
+body {
+    text-align: center;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: "Raleway";
+}
+
+h3, h4, h5, h6, p, li, a {
+    font-family: "Varela Round";
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/* Buttons */
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 15px 65px;
+    cursor: pointer;
+}
+
+.inversion {
+    border-radius: 2.5px;
+    background: none;
+    color: white;
+    border: 2.5px solid white;
+    margin-top: 200px;
+    -webkit-transition: .75s;
+    -moz-transition: .75;
+    -o-transition: .75s;
+    transition: .75s;
+}
+
+.inversion:hover {
+    background: white;
+    color: black;
+}
+
+.inversion:active {
+    background: black;
+    color: white;
+    border: 2.5px solid black;
+}
+
+.widening {
+    border: 2.5px solid white;
+    background: none;
+    font-size: 17.5px;
+    margin-top: 45vh;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+.widening:hover {
+    padding: 15px 75px;
+}
+
+.widening:active {
+    background: #e74c3c;
+}
+
+/* Links/Lists */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    margin-left: 5px;
+}
