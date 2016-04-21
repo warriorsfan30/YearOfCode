@@ -1,0 +1,62 @@
+body {
+    background-image: url('');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+.nav-icon {
+    position: absolute;
+    top: 5vh;
+    right: 5%;
+    height: 29px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-icon span {
+    background: white;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+.top {
+    top: 1px;
+}
+
+.middle {
+    top: 11px;
+}
+
+.bottom {
+    top: 21px;
+}
+
+.nav-icon.active .top {
+    top: 11px;
+    
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+}
+
+.nav-icon.active .middle {
+    opacity: 0;
+}
+
+.nav-icon.active .bottom {
+    top: 11px;
+    
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+}
