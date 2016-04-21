@@ -108,13 +108,11 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #9b59b6;
+    margin-left: 2.5%;
 }
 
 .inline-a {
     font-size: inherit;
-}
-
-.block-a {
-    font-size: 4vh;
+    margin-left: 0;
+    color: #e74c3c;
 }
