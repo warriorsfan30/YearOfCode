@@ -109,10 +109,6 @@ body {
     right: 0;   
 }
 
-a:hover {
-    margin-left: 2.5px;
-}
-
 content {
     font-weight: lighter;
     text-align: center;
@@ -122,19 +118,7 @@ content {
 
 p {
     font-size: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
     font-weight: bold;
-}
-
-li {
-    list-style: none;
-    cursor: pointer;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 h1 {
@@ -171,11 +155,6 @@ h1 {
 .inline-a {
     font-size: inherit;
     font-weight: bold;
-}
-
-.inline-a:hover {
-    margin-left: 0;
-    color: grey;
 }
 
 body::-webkit-scrollbar {
