@@ -1,5 +1,5 @@
 /*
- * Sweep V0.0.1 Alpha
+ * Sweep V0.1.2 Beta
  * Copyright 2016, Anish Kasam
  * Free to use under the MIT license.
  */
@@ -12,8 +12,6 @@
     - Typography
     - Buttons
     - Links/Lists
-    - Spacing
-    - Other
 */
 
 /* Typography */
@@ -114,24 +112,4 @@ a:hover {
 
 .block-a {
     font-size: 4vh;
-}
-
-/* Spacing */
-
-h1 {
-    margin-top: 15vh;
-}
-
-p {
-    margin-top: 7.5vh;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-/* Other */
-
-/* Just to see the HTML since the changed color is now white */
-
-body {
-    background: black;
 }
