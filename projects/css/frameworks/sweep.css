@@ -1,5 +1,5 @@
 /*
- * Sweep V0.1.2 Beta
+ * Sweep V0.1.4 Alpha
  * Copyright 2016, Anish Kasam
  * Free to use under the MIT license.
  */
@@ -38,6 +38,11 @@ button {
     font-weight: bold;
     font-size: 20px;
     color: white;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Buttons */
@@ -103,7 +108,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #2ecc71;
+    color: #9b59b6;
 }
 
 .inline-a {
