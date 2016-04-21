@@ -7,55 +7,59 @@ body {
   background-color: #444444;
 }
 
- .button_container {
-     position: fixed;
-     top: 6%;
-     right: 4%;
-     height: 27px;
-     width: 35px;
-     cursor: pointer;
-     z-index: 100;
-     -webkit-transition: opacity .25s ease;
-     transition: opacity .25s ease;
- }
- 
- .button_container.active .top {
-     -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
-     transform: translateY(11px) translateX(0) rotate(45deg);
-     background: #FFF;
- }
- 
- .button_container.active .middle {
-     opacity: 0;
-     background: #FFF
- }
- 
- .button_container.active .bottom {
-     -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
-     transform: translateY(-11px) translateX(0) rotate(-45deg);
-     background: #FFF;
- }
- 
- .button_container span {
-     background: #FFF;
-     border: none;
-     height: 5px;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     -webkit-transition: all .35s ease;
-     transition: all .35s ease;
-     cursor: pointer;
- }
- 
- .button_container span:nth-of-type(2) {
-     top: 11px;
- }
- 
- .button_container span:nth-of-type(3) {
-     top: 22px;
- }
+ .nav-icon {
+    position: absolute;
+    top: 5vh;
+    right: 5%;
+    height: 29px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-icon span {
+    background: white;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+.top {
+    top: 1px;
+}
+
+.middle {
+    top: 11px;
+}
+
+.bottom {
+    top: 21px;
+}
+
+.nav-icon.active .top {
+    top: 11px;
+    
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+}
+
+.nav-icon.active .middle {
+    opacity: 0;
+}
+
+.nav-icon.active .bottom {
+    top: 11px;
+    
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+}
 
 .menu {
     top: 0;
