@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1453230806017-56d81464b6c5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ef7efa065a1306618fef80e4294a189c');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+img {
+    width: 30vh;
+    height: 30vh;
+    margin-top: 42.5vh;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animation1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animation1 {
+    0%   {
+        -ms-transform: scale(1, 1); 
+        -webkit-transform: scale(1, 1); 
+        transform: scale(1, 1);
+    }
+    
+    100% {
+        -ms-transform: scale(1.1, 1.1); 
+        -webkit-transform: scale(1.1, 1.1); 
+        transform: scale(1.1, 1.1);
+    }
+    
+}
