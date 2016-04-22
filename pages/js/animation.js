@@ -3,3 +3,4 @@ $(".nav-icon").click(function() {
     $(".menu").toggleClass("show");
 });
 
+var wow = new WOW().init();
