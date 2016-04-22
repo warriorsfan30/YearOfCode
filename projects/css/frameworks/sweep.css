@@ -104,6 +104,10 @@ li {
 
 a {
     text-decoration: none;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
 }
 
 a:hover {
