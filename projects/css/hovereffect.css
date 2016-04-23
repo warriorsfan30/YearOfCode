@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1413745039035-e537397aa3f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9548473e47c3787a28e9897462e44863');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    font-family: Varela Round;
+    font-size: 3.5vh;
+    text-decoration: none;
+    line-height: 15vh;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+a:hover {
+    text-decoration: none;
+    margin-left: 0.5%;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.animate {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
