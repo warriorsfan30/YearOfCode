@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1438893761775-f1db119d27b2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0b878bd6233d596aca1ad93c6900d9f8');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 15px 65px;
+    cursor: pointer;
+}
+
+.inversion {
+    border-radius: 2.5px;
+    background: none;
+    color: white;
+    border: 2.5px solid white;
+    margin-top: 5vh;
+    -webkit-transition: .75s;
+    -moz-transition: .75;
+    -o-transition: .75s;
+    transition: .75s;
+}
+
+.inversion:hover {
+    background: white;
+    color: black;
+}
+
+.inversion:active {
+    background: black;
+    color: white;
+    border: 2.5px solid black;
+}
+
+.controlled {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 10vh;
+    height: 10vh;
+    
+    background: #e74c3c;
+    z-index: -1;
+}
