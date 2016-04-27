@@ -1,0 +1,36 @@
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9b59b6;
+    cursor: crosshair;
+}
+
+#button {
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2.5px solid white;
+    padding: 15px 55px;
+    background: none;
+    font-family: Varela Round;
+    color: white;
+    font-size: 17.5px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+#button:hover {
+    padding: 15px 65px;
+}
+
+#button:active {
+    background: #8e44ad;
+}
