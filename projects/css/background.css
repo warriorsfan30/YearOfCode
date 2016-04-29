@@ -1,0 +1,21 @@
+body {
+    background-color: #2ecc71;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
