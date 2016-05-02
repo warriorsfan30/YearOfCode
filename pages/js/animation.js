@@ -8,6 +8,13 @@ $(document).ready(function() {
     $("content").fadeIn(1000);
 });
 
+$(document).keydown(function (e) {
+    if (e.keyCode == 9) {
+        alert("Edit Some Text!");
+        document.getElementsByTagName("BODY")[0].setAttribute("contenteditable", "true");
+    }
+});
+
 $(".nav-icon").click(function() {
     $(this).toggleClass("active");
     $(".menu").toggleClass("show");
