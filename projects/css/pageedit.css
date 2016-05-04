@@ -1,0 +1,27 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1458724029936-2cc6ee38f5ef?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1cf1a3e7ee550644d99b4b5bec53ede9');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+h1 {
+    color: white;
+    font-family: Quicksand;
+    text-align: center;
+    margin-top: 35vh;
+}
+
+p {
+    color: white;
+    font-family: Varela Round;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    color: #2980b9;
+} 
