@@ -64,7 +64,7 @@ body {
 .menu {
     top: -10%;
     left: 0;
-    background: #8e44ad repeat left top;
+    background: #34495e repeat left top;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -85,11 +85,7 @@ body {
 .menu li {
     text-align: left;
     text-align: center;
-    margin-top: 21.5vh;
-    -webkit-transition: .55s;
-    -moz-transition: .55s;
-    -o-transition: .55s;
-    transition: .55s;
+    margin-top: 30vh;
 }
 
 .menu li:hover {
