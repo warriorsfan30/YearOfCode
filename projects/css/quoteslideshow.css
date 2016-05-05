@@ -1,0 +1,30 @@
+body {
+    background-color: #27ae60;
+}
+
+li {
+    left: 0;
+    top: 0;
+    list-style-type: none;
+    display: none;
+    color: white;
+    font-family: Varela Round;
+    font-size: 7.5vh;
+    font-weight: bold;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.active {
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 3vh;
+    font-weight: normal;
+    font-size: 5vh;
+}
