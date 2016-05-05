@@ -17,7 +17,7 @@ $(document).keydown(function (e) {
 
 $(".nav-icon").click(function() {
     $(this).toggleClass("active");
-    $(".menu").toggleClass("show");
+    $(".menu").toggleClass("active");
 });
 
 var wow = new WOW().init();
