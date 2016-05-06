@@ -15,6 +15,13 @@ $(".nav-icon").click(function() {
 
 var wow = new WOW().init();
 
+$(document).keydown(function (e) {
+    if (e.keyCode == 9) {
+        alert("Edit Some Text!");
+        document.getElementsByTagName("BODY")[0].setAttribute("contenteditable", "true");
+    }
+});
+
 var musickeys = [];
 var music = '77,85,83,73,67';
 
