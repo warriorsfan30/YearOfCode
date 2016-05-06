@@ -24,18 +24,6 @@ $(document).keydown(function(e) {
         musickeys = [];
         alert('Music!')
         document.getElementsByTagName("HTML")[0].setAttribute("contenteditable", "true");
-        $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/EZpOLOLbwJw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
-    }
-});
-
-var editkeys = [];
-var edit = '69,68,73,84';
-
-$(document).keydown(function(e) {
-    editkeys.push(e.keyCode);
-    if (editkeys.toString().indexOf(music) >= 0) {
-        editkeys = [];
-        alert('Edit the Text!')
-        document.getElementsByTagName("BODY")[0].setAttribute("contenteditable", "true");
+        $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
     }
 });
