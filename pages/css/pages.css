@@ -106,8 +106,14 @@ body {
 }
 
 .menu.active {
-    top: 0;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-delay: .25s;
+    animation-delay: .25s;
+    -webkit-animation-name: menuBounce;
+    animation-name: menuBounce;
     opacity: 0.9;
+    top: 0;
 }
 
 content {
@@ -166,4 +172,28 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: #2c3e50;
     outline: 1px solid #2c3e50;
+}
+
+@keyframes menuBounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -17.5vh;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes menuBounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -17.5vh;
+    }
+    100% {
+        top: 0;
+    }
 }
