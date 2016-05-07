@@ -15,22 +15,29 @@ $(".nav-icon").click(function() {
 
 var wow = new WOW().init();
 
-$(document).keydown(function (e) {
-    if (e.keyCode == 9) {
-        alert("Edit Some Text!");
-        document.getElementsByTagName("BODY")[0].setAttribute("contenteditable", "true");
+var keys = [];
+var edit = '69,68,73,84';
+
+$(document).keydown(function(e) {
+    keys.push(e.keyCode);
+    if (keys.toString().indexOf(edit) >= 0) {
+        keys = [];
+        document.getElementsByTagName("HTML")[0].setAttribute("contenteditable", "true");
     }
 });
 
-var musickeys = [];
-var music = '77,85,83,73,67';
+var musicKeys = [];
+var musicStrKeys = '77,85,83,73,67';
 
 $(document).keydown(function(e) {
-    musickeys.push(e.keyCode);
-    if (musickeys.toString().indexOf(music) >= 0) {
-        musickeys = [];
-        alert('Music!')
-        document.getElementsByTagName("HTML")[0].setAttribute("contenteditable", "true");
-        $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+    musicKeys.push(e.keyCode);
+    if (keys.toString().indexOf(musicStrKeys) >= 0) {
+        musicKeys = [];
+        $(".music").addClass("active");
     }
+});
+
+$(".music").click(function() {
+    $('body').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+    $(this).hide();
 });
