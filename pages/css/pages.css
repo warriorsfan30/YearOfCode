@@ -159,7 +159,7 @@ button:hover {
 }
 
 button.active {
-  display: block;
+  display: inline-block;
 }
 
 .ui {
