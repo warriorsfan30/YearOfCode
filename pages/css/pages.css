@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #444444;
+  text-align: center;
 }
 
  .nav-icon {
@@ -146,7 +147,10 @@ button {
     font-size: 17.5px;
     cursor: pointer;
     outline: none;
-    margin-top: 10vh;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: none;
     -webkit-transition: .55s;
     -moz-transition: .55s;
