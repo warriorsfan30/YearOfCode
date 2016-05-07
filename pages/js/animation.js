@@ -37,7 +37,12 @@ $(document).keydown(function(e) {
     }
 });
 
-$(".music").click(function() {
-    $('body').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
-    $(this).hide();
+$(".GDFR").click(function() {
+    $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+    $(".music").hide();
+});
+
+$(".LeanOn").click(function() {
+    $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/EZpOLOLbwJw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+    $(".music").hide();
 });
