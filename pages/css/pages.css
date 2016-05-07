@@ -146,7 +146,7 @@ button {
     font-size: 17.5px;
     cursor: pointer;
     outline: none;
-    position: fixed;
+    margin-top: 10vh;
     display: none;
     -webkit-transition: .55s;
     -moz-transition: .55s;
