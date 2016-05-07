@@ -139,7 +139,7 @@ h1 {
 
 button {
     border: 2.5px solid white;
-    padding: 12.5px 45px;
+    padding: 15px 65px;
     background: none;
     font-family: Quicksand;
     color: white;
@@ -150,6 +150,7 @@ button {
     -moz-transition: .55s;
     -o-transition: .55s;
     transition: .55s;
+    margin-top: 10vh;
 }
 
 button:hover {
