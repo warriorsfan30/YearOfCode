@@ -1,0 +1,94 @@
+body {
+    background-color: #9b59b6;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-family: Coming Soon;
+    font-size: 300%;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    color: white;
+    font-family: Quicksand;
+    font-weight: bold;
+    position: absolute;
+    top: calc(50vh + 40px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.border {
+    background: #8e44ad;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 10%;
+}
+
+.left {
+    left: 0%;
+}
+
+.right {
+    right: 0%;
+}
+
+.active {
+    display: inline-block;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+    margin-top: 2.5vh;
+}
+
+input[type=submit] {
+    width: 55%;
+    background-color: #8e44ad;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Varela Round;
+    font-weight: bold;
+    outline: none;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+input[type=submit]:hover {
+    width: 50%;
+}
