@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1430089888180-1aa87f8f5b6d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a50e8145c93ddd48ed7651072fa93437');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer {
+    padding: 10px;
+    background: none;
+    overflow: hidden;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cell {
+    width: 0.60em;
+    height: 40px;
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.numbers {
+    width: 0.6em;
+    line-height: 40px;
+    font-family: Varela Round, arial, verdana;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#timer_controls {
+    margin-top: -5px;
+}
+
+#timer_controls label {
+    cursor: pointer;
+    padding: 5px 37px;
+    background: none;
+    color: white;
+    font-family: Quicksand, verdana, tahoma;
+    font-size: 20px;
+    border-radius: 0 0 3px 3px;
+    line-height: 50px;
+}
+
+input[name="controls"] {
+    display: none;
+}
+
+#stop:checked~.timer .numbers {
+    animation-play-state: paused;
+}
+
+#start:checked~.timer .numbers {
+    animation-play-state: running;
+}
+
+#reset:checked~.timer .numbers {
+    animation: none;
+}
+
+.moveten {
+    animation: moveten 1s steps(10, end) infinite;
+    animation-play-state: paused;
+}
+
+.movesix {
+    animation: movesix 1s steps(6, end) infinite;
+    animation-play-state: paused;
+}
+
+.second {
+    animation-duration: 10s;
+}
+
+.tensecond {
+    animation-duration: 60s;
+}
+
+.milisecond {
+    animation-duration: 1s;
+}
+
+.tenmilisecond {
+    animation-duration: 0.1s;
+}
+
+.hundredmilisecond {
+    animation-duration: 0.01s;
+}
+
+.minute {
+    animation-duration: 600s;
+}
+
+.tenminute {
+    animation-duration: 3600s;
+}
+
+.hour {
+    animation-duration: 36000s;
+}
+.tenhour {
+    animation-duration: 360000s;
+}
+
+@keyframes moveten {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -400px;
+    }
+}
+
+@keyframes movesix {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -240px;
+    }
+}
