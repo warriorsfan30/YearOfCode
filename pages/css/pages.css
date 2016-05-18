@@ -166,15 +166,19 @@ button.active {
   display: inline-block;
 }
 
-.ui {
+.projects {
     text-align: left;
     position: absolute;
     margin-top: 50vh;
     left: 0;
     width: 100%;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
 
-.ui a {
+.projects a {
     margin-top: 20px;
     font-size: 170%;
     line-height: 7.5vh;
@@ -182,6 +186,10 @@ button.active {
     font-weight: bold;
     color: white;
     padding-left: 5%;
+}
+
+.projects a:hover {
+  margin-left: 15px;
 }
 
 .about {
