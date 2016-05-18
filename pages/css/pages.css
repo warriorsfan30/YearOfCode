@@ -76,33 +76,39 @@ body {
     z-index: 99;
 }
 
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .menu li {
-    text-align: left;
-    text-align: center;
-    margin-top: 30vh;
-}
-
-.menu li:hover {
-    font-weight: bold;
+    line-height: 50vh;
+    font-family: Varela Round;
+    list-style-type: none;
 }
 
 .menu a {
-    color: rgb(220, 220, 220);
+    color: white;
     font-size: 200%;
+    font-weight: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    opacity: 1;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    font-family: Quicksand, sans-serif;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+.menu a:before {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.menu a:hover:before {
+    width: 100%;
 }
 
 .menu.active {
