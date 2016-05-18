@@ -43,7 +43,6 @@ body {
 
 .nav-icon.active .top {
     top: 11px;
-    
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg); 
     transform: rotate(-45deg);
@@ -55,7 +54,6 @@ body {
 
 .nav-icon.active .bottom {
     top: 11px;
-    
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg); 
     transform: rotate(45deg);
@@ -85,7 +83,7 @@ body {
 .menu a {
     color: white;
     font-size: 200%;
-    font-weight: 1px;
+    font-weight: 100;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
