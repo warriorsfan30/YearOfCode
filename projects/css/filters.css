@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Varela Round, Quicksand, Raleway;
+    background: #8E8271;
+}
+
+#gallery {
+    width: 725px;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery a {
+    display: block;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    -webkit-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+#gallery a:nth-child(3n+2) {
+    margin: 0 25px 25px 25px;
+}
+
+#gallery a img {
+    width: calc(675px/3);
+    display: block;
+    -webkit-transition: all 0.5s;
+}
+
+#gallery a img:hover {
+    -webkit-filter: none;
+}
+
+.title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    z-index: 1;
+    padding: 5px 7px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.saturate {
+    -webkit-filter: saturate(3);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+}
+
+.contrast {
+    -webkit-filter: contrast(160%);
+}
+
+.blur {
+    -webkit-filter: blur(3px);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+}
