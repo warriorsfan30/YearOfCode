@@ -81,7 +81,7 @@ body {
 
 .menu a {
     font-family: Quicksand, sans-serif;
-    font-weight: initial;
+    font-weight: inherit;
     color: white;
     font-size: 30px;
     text-decoration: none;
