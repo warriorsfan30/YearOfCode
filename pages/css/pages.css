@@ -76,14 +76,14 @@ body {
 
 .menu li {
     line-height: 50vh;
-    font-family: Varela Round;
+    font-family: Quicksand;
     list-style-type: none;
 }
 
 .menu a {
     color: white;
     font-size: 200%;
-    font-weight: 50;
+    font-weight: 100;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
