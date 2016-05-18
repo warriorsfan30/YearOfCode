@@ -76,11 +76,12 @@ body {
 
 .menu li {
     line-height: 50vh;
-    font-family: Quicksand, sans-serif;
     list-style-type: none;
 }
 
 .menu a {
+    font-family: Quicksand, sans-serif;
+    font-weight: initial;
     color: white;
     font-size: 30px;
     text-decoration: none;
