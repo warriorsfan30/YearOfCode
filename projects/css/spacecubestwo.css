@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15px;
+    top: 5vh;
+    left: 0;
+}
