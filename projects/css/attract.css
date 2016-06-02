@@ -1,0 +1,7 @@
+canvas {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: crosshair;
+}
