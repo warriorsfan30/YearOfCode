@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+}
+
+input[type="text"] {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2.5px solid white;
+    color: white;
+    width: 50%;
+    font-family: Quicksand;
+    font-weight: bold;
+    padding-bottom: 7.5px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: none;
+    border: none;
+    border: solid 2.5px white;
+    font-family: Quicksand;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 65px;
+    position: absolute;
+    top: calc(50vh + 50px);
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    -webkit-transition: .55s ease-in-out;
+    -moz-transition: .55s ease-in-out;
+    -o-transition: .55s ease-in-out;
+    transition: .55s ease-in-out;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+iframe {
+    border: none;
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    left: 10%;
+    width: 80%;
+}
