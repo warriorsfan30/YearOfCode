@@ -1,0 +1,33 @@
+body {
+  background-image: url('http://tympanus.net/Freebies/HalcyonDaysTemplate/img/hero-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #444444;
+  text-align: center;  
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 5vh;
+    background: none;
+    font-family: "Quicksand";
+    font-weight: bold;
+    border-bottom: 2.5px solid green;
+}
+
+p {
+    color: black;
+    font-family: "Quicksand";
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+div {
+   margin-top: 50vh;
+    transform: translateY(-50%);
+}
