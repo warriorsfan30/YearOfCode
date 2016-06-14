@@ -1,0 +1,34 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1461352195749-fdba50b79c74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e646f3330c747a0222fc55b59355ca82');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 5vh;
+    background: none;
+    font-family: "Quicksand";
+    font-weight: bold;
+    border-bottom: 2.5px solid red;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: "Quicksand";
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+div {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
