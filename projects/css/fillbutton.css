@@ -1,0 +1,42 @@
+body {
+    background: #e74c3c;
+}
+
+button {
+    font-family: Quicksand, sans-serif;
+    font-weight: inherit;
+    color: white;
+    font-size: 30px;
+    background: none;
+    border: 2.5px solid white;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 75px;
+    cursor: pointer;
+}
+
+button:before {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    z-index: -99;
+    -webkit-transition: all .75s ease-in-out;
+    -moz-transition: all .75s ease-in-out;
+    -ms-transition: all .75s ease-in-out;
+    -o-transition: all .75s ease-in-out;
+    transition: all .75s ease-in-out;
+}
+
+button:hover:before {
+    width: 100%;
+}
