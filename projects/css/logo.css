@@ -1,0 +1,37 @@
+body {
+    -webkit-transition: .55s ease-in-out;
+    -moz-transition: .55s ease-in-out;
+    -o-transition: .55s ease-in-out;
+    transition: .55s ease-in-out;
+}
+
+.logo{
+    font-family: Quicksand;
+    font-weight: bold;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.a {
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-125%, -25%);
+}
+
+.n {
+    font-size: 10px;
+    position: absolute;
+    transform: translate(-100%, -75%);
+}
+
+.i:before {
+    content: "<";
+}
+
+.i:after {
+    content: ">";
+}
