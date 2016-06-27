@@ -41,24 +41,3 @@ $(document).keydown(function(e) {
         document.getElementsByTagName("HTML")[0].setAttribute("contenteditable", "true");
     }
 });
-
-var musicKeys = [];
-var musicStrKeys = '77,85,83,73,67';
-
-$(document).keydown(function(e) {
-    musicKeys.push(e.keyCode);
-    if (keys.toString().indexOf(musicStrKeys) >= 0) {
-        musicKeys = [];
-        $(".music").addClass("active");
-    }
-});
-
-$(".GDFR").click(function() {
-    $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/3S80EMFCkog?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
-    $(".music").hide();
-});
-
-$(".LeanOn").click(function() {
-    $('body').addClass('background').append('<iframe width="0" height="0" src="https://www.youtube.com/embed/EZpOLOLbwJw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
-    $(".music").hide();
-});
