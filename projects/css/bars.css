@@ -1,0 +1,33 @@
+body {
+    background-color: #c0392b;
+    text-align: center;
+}
+
+h1 {
+    font-family: Varela Round;
+    color: white;
+    font-size: 50px;
+}
+
+div {
+    width: calc(50%/10);
+    height: 25vh;
+    background: white;
+    display: inline-block;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -o-transition: .55s;
+    transition: .55s;
+}
+
+wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.active {
+    height: calc(25vh + 100px);
+}
