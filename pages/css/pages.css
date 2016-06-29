@@ -138,29 +138,29 @@ h2 {
 .menu {
     top: -100%;
     left: 0;
-    background: white repeat left top;
+    background: black repeat left top;
     height: 100%;
     position: fixed;
     width: 100%;
     opacity: 0;
     z-index: 99;
     text-align: center;
-    -webkit-transition: .55s ease-in-out;
-    -moz-transition: .55s ease-in-out;
-    -o-transition: .55s ease-in-out;
-    transition: .55s ease-in-out;
+    line-height: calc(100vh/3);
+    -webkit-transition: .45s ease-in-out;
+    -moz-transition: .45s ease-in-out;
+    -o-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
 }
 
 .menu li {
-    line-height: calc(100vh/3);
     list-style-type: none;
 }
 
 .menu a {
     font-family: Quicksand, sans-serif;
     font-weight: inherit;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 3.5vh;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
@@ -173,16 +173,17 @@ h2 {
     height: 2px;
     position: absolute;
     bottom: 0;
-    left: 0;
-    background-color: black;
-    -webkit-transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -ms-transition: all .7s ease-in-out;
-    -o-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    left: 50%;
+    background-color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .menu a:hover:before {
+    left: 0;
     width: 100%;
 }
 
