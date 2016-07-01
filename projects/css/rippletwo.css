@@ -8,14 +8,3 @@
     cursor: crosshair;
     text-align: center;
 }
-
-h1 {
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -100%);
-}
