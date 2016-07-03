@@ -1,0 +1,36 @@
+body {
+    background: white;
+    text-align: center;
+}
+
+a {
+    top: 45vh;
+    font-family: Quicksand, sans-serif;
+    font-weight: inherit;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+a:before {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    background-color: black;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+a:hover:before {
+    width: 100%;
+    left: 0;
+}
