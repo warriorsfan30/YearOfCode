@@ -195,6 +195,6 @@ h2 {
 .github-icons {
     z-index: 9999;
     position: fixed;
-    bottom: 5vh;
-    left: 5%;
+    bottom: 2.5vh;
+    left: 1%;
 }
