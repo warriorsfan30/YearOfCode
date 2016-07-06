@@ -191,3 +191,8 @@ h2 {
     opacity: 0.9;
     top: 0;
 }
+
+.github-icons {
+    z-index: 9999;
+    position: fixed;
+}
