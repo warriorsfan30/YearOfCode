@@ -1,0 +1,32 @@
+div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+button {
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Quicksand;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: 2.5px solid black;
+    outline: none;
+    padding: 20px 55px;
+    font-size: 15px;
+    -webkit-transition: .55s ease-in-out;
+    -moz-transition: .55s ease-in-out;
+    -o-transition: .55s ease-in-out;
+    transition: .55s ease-in-out;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
