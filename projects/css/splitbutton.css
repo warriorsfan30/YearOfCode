@@ -1,0 +1,79 @@
+body {
+    background: white;
+}
+
+button {
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: calc(5px + 1vh);
+    background: none;
+    border: 2.5px solid black;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 55px;
+    cursor: pointer;
+}
+
+button:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    opacity: 0.75;
+    background-color: #16a085;
+    z-index: -99;
+    -webkit-transition: all .75s ease-in-out;
+    -moz-transition: all .75s ease-in-out;
+    -ms-transition: all .75s ease-in-out;
+    -o-transition: all .75s ease-in-out;
+    transition: all .75s ease-in-out;
+}
+
+button:hover:before {
+    width: 90%;
+    top: 0;
+    left: 0;
+}
+
+button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: #16a085;
+    opacity: 0.75;
+    z-index: -99;
+    -webkit-transition: all .75s ease-in-out;
+    -moz-transition: all .75s ease-in-out;
+    -ms-transition: all .75s ease-in-out;
+    -o-transition: all .75s ease-in-out;
+    transition: all .75s ease-in-out;
+}
+
+button:hover:after {
+    width: 90%;
+    bottom: 0;
+    right: 0;
+}
+
+button:active:before {
+    background: #1abc9c;
+}
+
+button:active:after {
+    background: #1abc9c;
+}
