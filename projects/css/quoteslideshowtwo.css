@@ -1,0 +1,32 @@
+body {
+    background-color: #27ae60;
+}
+
+li {
+    left: 0;
+    top: 0;
+    list-style-type: none;
+    opacity: 0;
+    color: white;
+    font-family: Quicksand;
+    font-size: 7.5vh;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    -o-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+}
+
+span {
+    display: block;
+    margin-top: 3vh;
+    font-weight: bold;
+    font-size: 5vh;
+}
