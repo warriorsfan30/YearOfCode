@@ -1,0 +1,26 @@
+body {
+    background: white;
+}
+
+h1 {
+    color: black;
+    font-family: Montserrat;
+    text-align: left;
+}
+
+p {
+    color: black;
+    font-family: Quicksand;
+}
+
+a {
+    text-decoration: none;
+    color: #11609f;
+}
+
+div {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
