@@ -1,0 +1,28 @@
+body {
+    background: white;
+    text-align: center;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 5vh;
+    background: none;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    border-bottom: 2.5px solid black;
+    color: black;
+    padding-bottom: 2.5px;
+}
+
+h1 {
+    color: black;
+    font-family: "Comfortaa";
+    text-align: center;
+}
+
+div {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
