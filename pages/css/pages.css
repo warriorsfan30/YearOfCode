@@ -1,9 +1,13 @@
-section {
-    position: absolute;    
-    left: 0;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {   
     width: 100%;
     display: table;
 }
+
 
 .header {
     top: 0;
@@ -21,14 +25,12 @@ section {
 }
 
 .about {
-    top: 100vh;
     color: white;
     background: black;
     height: 100vh;
 }
 
 .sites {
-    top: 200vh;
     color: black;
     padding-bottom: 10px;
 }
