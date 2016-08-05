@@ -1,0 +1,35 @@
+body {
+    background: #e74c3c;
+}
+
+
+.center {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.youtube-logo {
+    background: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.play {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #e74c3c;
+	border-bottom: 50px solid transparent;
+    transform: translate(205px, 75px);
+}
+
+h1 {
+    font-family: Comfortaa;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
