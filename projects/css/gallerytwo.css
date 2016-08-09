@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+    border: none;
+    outline: none;
+    -webkit-filter: opacity(75%);
+    cursor: crosshair;   
+    -webkit-transition: .45s ease-in-out;
+    -moz-transition: .45s ease-in-out;
+    -o-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
+}
+
+img:hover {
+    -webkit-filter: opacity(100%);
+}
+
+.top {
+    top: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.right {
+    right: 0
+}
