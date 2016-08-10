@@ -1,0 +1,8 @@
+body {
+    font-family: Comfortaa;
+    font-weight: 50;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: calc(50vh - 25px);
+}
