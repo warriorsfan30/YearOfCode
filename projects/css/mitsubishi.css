@@ -1,0 +1,54 @@
+.center {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-155%, -85%);
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    background: red;
+    position: absolute;
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: 75px solid transparent;
+    border-bottom: 100px solid red;
+    position: relative;
+    top: -50px;
+}
+
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -75px;
+    top: 100px;
+    width: 0;
+    height: 0;
+    border: 75px solid transparent;
+    border-top: 100px solid red;
+}
+
+.one {
+    -webkit-transform: skew(20deg) translate(155px, 200px);
+    -moz-transform: skew(20deg) translate(155px, 200px);
+    -o-transform: skew(20deg) translate(155px, 200px);
+    transform: skew(20deg) translate(155px, 200px);
+}
+
+.two {
+    -webkit-transform: skew(-20deg) translate(115px, 200px);
+    -moz-transform: skew(-20deg) translate(115px, 200px);
+    -o-transform: skew(-20deg) translate(115px, 200px);
+    transform: skew(-20deg) translate(115px, 200px);
+}
+
+.three {
+    -webkit-transform: translate(135px, -25px) ;
+    -moz-transform: translate(135px, -25px);
+    -o-transform: translate(135px, -25px);
+    transform: translate(135px, -25px);
+}
