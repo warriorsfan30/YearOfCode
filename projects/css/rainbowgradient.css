@@ -1,0 +1,6 @@
+body {
+    background: -webkit-linear-gradient(left, #e74c3c calc(14.2857142857%), #f39c12 calc(14.2857142857% * 2), #f1c40f calc(14.2857142857% * 3), #2ecc71 calc(14.2857142857% * 4), #3498db calc(14.2857142857% * 5), #9b59b6 calc(14.2857142857% * 6));
+    background: -o-linear-gradient(left, #e74c3c calc(14.2857142857%), #f39c12 calc(14.2857142857% * 2), #f1c40f calc(14.2857142857% * 3), #2ecc71 calc(14.2857142857% * 4), #3498db calc(14.2857142857% * 5), #9b59b6 calc(14.2857142857% * 6));
+    background: -moz-linear-gradient(left, #e74c3c calc(14.2857142857%), #f39c12 calc(14.2857142857% * 2), #f1c40f calc(14.2857142857% * 3), #2ecc71 calc(14.2857142857% * 4), #3498db calc(14.2857142857% * 5), #9b59b6 calc(14.2857142857% * 6));
+    background: linear-gradient(to right, #e74c3c calc(14.2857142857%), #f39c12 calc(14.2857142857% * 2), #f1c40f calc(14.2857142857% * 3), #2ecc71 calc(14.2857142857% * 4), #3498db calc(14.2857142857% * 5), #9b59b6 calc(14.2857142857% * 6));
+}
