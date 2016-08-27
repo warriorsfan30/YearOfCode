@@ -1,0 +1,35 @@
+img {
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+}
+
+.one {
+    top: 0;
+    left: 0;
+}
+
+.two {
+    left: 50%;
+    top: 50vh;
+}
+
+.three {
+    top: 0;
+    left: 50%;
+}
+
+.four {
+    left: 0;
+    top: 50vh;    
+}
+
+h1 {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    font-size: 30px;
+    font-family: Comfortaa;
+    color: black;
+    transform: translate(-50%, -37.5px);
+}
