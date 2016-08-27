@@ -1,0 +1,34 @@
+body {
+    background: white;
+}
+
+.ring {
+    height: 100px;
+    width: 100px;
+    border: 4px black solid;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.one {
+    transform: translate(10px, 10px);
+}
+
+.two {
+    transform: translate(75px, 10px);
+}
+
+.three {
+    transform: translate(150px, 10px);
+}
+
+.four {
+    transform: translate(225px, 10px);
+}
+
+.center {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-150px, -60px);
+}
