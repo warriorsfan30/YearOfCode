@@ -20,8 +20,30 @@ input[type="text"] {
     transition: all .25s ease-in-out;
 }
 
+input[type="submit"] {
+    width: 50%;
+    height: 45px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 15px;
+    background: #ecf0f1;
+    cursor: pointer;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
 input[type="text"]:focus {
     border-bottom: 2.5px solid black;
+}
+
+input[type="submit"]:hover {
+    background: #95a5a6;
 }
 
 .center {
