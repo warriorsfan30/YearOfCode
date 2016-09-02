@@ -82,6 +82,10 @@ h2 {
     bottom: 5vh;
 }
 
+h2 a {
+    color: white;
+}
+
 .nav-icon {
     position: fixed;
     top: 6vh;
