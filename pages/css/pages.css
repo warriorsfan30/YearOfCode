@@ -3,14 +3,12 @@ body {
     padding: 0;
 }
 
-section {   
+section {
     width: 100%;
     display: table;
 }
 
-
 .header {
-    top: 0;
     color: white;
     background-image: url('https://static.pexels.com/photos/109243/pexels-photo-109243.jpeg');
     background-position: center center;
@@ -26,8 +24,8 @@ section {
 
 .about {
     color: white;
-    background: black;
     height: 100vh;
+    background: black;
 }
 
 .sites {
@@ -42,12 +40,13 @@ section {
 }
 
 h1 {
-    font-family: Montserrat, sans-serif;
-    font-size: 8.5vh;
+    font-family: Dosis, sans-serif;
+    font-size: 9.5vh;
+    font-weight: 100;
 }
 
 p {
-    font-family: Quicksand;
+    font-family: Comfortaa;
     font-size: 2.5vh;
 }
 
@@ -61,9 +60,8 @@ p {
 
 li {
     list-style-type: none;
-    font-family: Quicksand;
+    font-family: Comfortaa;
     font-size: 2.75vh;
-    font-weight: bold;    
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
 }
@@ -77,11 +75,11 @@ h2 {
     color: white;
     mix-blend-mode: difference;
     position: fixed;
-    font-family: Quicksand;
+    font-family: Comfortaa;
+    letter-spacing: .75px;
     font-size: 2vh;
-    font-weight: bold;
     right: 5vw;
-    bottom: 2.5vh;
+    bottom: 5vh;
 }
 
 .nav-icon {
@@ -128,6 +126,7 @@ h2 {
 
 .nav-icon.active .middle {
     opacity: 0;
+    left: 35px;
 }
 
 .nav-icon.active .bottom {
@@ -159,14 +158,15 @@ h2 {
 }
 
 .menu a {
-    font-family: Quicksand, sans-serif;
-    font-weight: inherit;
+    font-family: Comfortaa, sans-serif;
+    font-weight: bold;
     color: white;
     font-size: 3.5vh;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 7px;
+    letter-spacing: 1px;
 }
 
 .menu a:before {
@@ -192,11 +192,4 @@ h2 {
 .menu.active {
     opacity: 0.9;
     top: 0;
-}
-
-.github-icons {
-    z-index: 9999;
-    position: fixed;
-    bottom: 2.5vh;
-    left: 2.5%;
 }
