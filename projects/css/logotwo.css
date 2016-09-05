@@ -1,0 +1,22 @@
+div {
+    background: red;
+    background: -webkit-linear-gradient(-45deg, #1abc9c, #27ae60);
+    background: -o-linear-gradient(-45deg, #1abc9c, #27ae60);
+    background: -moz-linear-gradient(-45deg, #1abc9c, #27ae60);
+    background: linear-gradient(-45deg, #1abc9c, #27ae60);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 45px;
+}
+
+center {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
